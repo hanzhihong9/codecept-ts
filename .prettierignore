@@ -1,0 +1,6 @@
+**/builds
+**/.angular
+**/.vscode
+**/typings
+**/node_modules
+**/www
