@@ -1,4 +1,4 @@
-Feature('github Page')
+Feature('doemo github Page')
 Before(({ I }) => { // or Background
   I.amOnPage('https://github.com');
 });
@@ -12,4 +12,4 @@ Scenario('update user profile', ({ I }) => {
   I.see('Incorrect username or password.', '.flash-error');
   
 })
-.tag('@slow').tag('important');
+.tag('@demo').tag('important');

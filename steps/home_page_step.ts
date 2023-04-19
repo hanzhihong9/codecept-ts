@@ -6,7 +6,6 @@ class HomePageStep {
      */
     goToHomePage() {
         pages.homePage.goToHomePage()
-        I.see('Gmail')
         I.say('Desktop mode')
     }
 }

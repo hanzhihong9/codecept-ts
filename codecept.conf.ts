@@ -3,18 +3,10 @@ import { setHeadlessWhen, setCommonPlugins } from '@codeceptjs/configure';
 import {devices} from 'playwright'
 import envConfig = require('./resources/config')
 
-// import CustomCommands = require('./helpers/custom_commands_helper');
-
-// import PlaywrightBrowser = require('./helpers/playwright_browser_helper');
-
-// import ChaiWrapper from './node_modules/codeceptjs-chai'
-
 import bootstrap = require('./presettings');
-// import dotenv from 'dotenv'
 import testData = require('./resources/test_data/dev/test_data');
-// import testData = require(`./resources/test_data/${process.env.TEST_ENV}/test_data`)
 
-// dotenv.config()
+
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);

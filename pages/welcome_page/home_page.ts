@@ -5,8 +5,7 @@ class HomePage {
      * Go to home page
      */
     goToHomePage() {
-        // I.amOnPage('/')
-        I.amOnPage(testData.homePageUrl)
+        I.amOnPage('/')
     }
 }
 
