@@ -1,5 +1,5 @@
 {
-  "extends": ["standard", "prettier"],
+  "extends": ["standard", "prettier", "plugin:codeceptjs/recommended"],
   "rules": {
     "no-undef":0,
     "eqeqeq": 2,
@@ -10,6 +10,7 @@
     "no-unused-expressions": 0,
     "max-params": [2, 3],
     "no-var": 2,
+    "codeceptjs/no-actor-in-scenario": 2,
     "require-jsdoc": [
         2,
         {

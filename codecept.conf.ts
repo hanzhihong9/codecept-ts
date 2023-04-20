@@ -122,15 +122,15 @@ export const config: CodeceptJS.MainConfig = {
         Playwright: playwrightConfig,
         CustomCommands: {
             require: './helpers/custom_commands_helper',
-            // CustomCommands,
         },
         PlaywrightBrowser: {
             require: './helpers/playwright_browser_helper',
-            // PlaywrightBrowser,
+        },
+        CatchRequestsHelper: {
+            require: './helpers/catch_request_helper',
         },
         ChaiWrapper: {
-            require: './node_modules/codeceptjs-chai',
-            // ChaiWrapper
+            require: 'codeceptjs-chai',
         },
     },
     // https://codecept.io/bootstrap/
